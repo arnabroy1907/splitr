@@ -9,6 +9,13 @@ const myFont = Manrope({
 export const metadata: Metadata = {
   title: "Splitr",
   description: "Splitr app for expense management - Play Project - WIP",
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/favicon.ico'
+  },
+  authors: {
+    name: 'Arnab Roy'
+  }
 };
 
 export default function RootLayout({
