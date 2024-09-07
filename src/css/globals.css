@@ -1,10 +1,8 @@
-
 html {
   --theme-fg: #1a1a1a;
   --theme-bg: #ffffff;
   --theme-primary-bg: #00d1b2;
   --theme-primary-bg2: #0dbaa0;
-  --theme-outline-grey1: #696969;
 }
 
 html[data-theme="dark"] {
@@ -20,7 +18,15 @@ body {
   color: var(--theme-fg);
 }
 
+@media only screen and (max-width: 340px) {
+  html {
+    overflow-x: scroll;
+  }
+}
+
 body {
+  position: relative;
+  min-width: 340px;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -38,6 +44,16 @@ a {
   text-decoration: none;
 }
 
-h1,h2,h3,h4,h5,h6,p {
-  margin: 0 !important;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+main {
+  margin-top: 4rem;
 }

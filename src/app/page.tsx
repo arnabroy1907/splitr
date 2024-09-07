@@ -1,7 +1,10 @@
+import { HeroSection } from "@splitr/components/HeroSection/HeroSection";
+
+// Landing page with hero section
 export default function Home() {
   return (
     <main>
-      <h1>Splitr App</h1>
+      <HeroSection />
     </main>
   );
 }

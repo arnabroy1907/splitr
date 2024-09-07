@@ -5,6 +5,8 @@ import { Manrope } from "next/font/google";
 
 const myFont = Manrope({
   subsets: ["latin"],
+  display: "swap",
+  preload: false,
 });
 
 export const metadata: Metadata = {
