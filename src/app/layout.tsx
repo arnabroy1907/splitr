@@ -1,3 +1,4 @@
+import { Footer } from "@splitr/components/Footer/Footer";
 import { Navbar } from "@splitr/components/Navbar/Navbar";
 import "@splitr/css/globals.css";
 import type { Metadata } from "next";
@@ -31,6 +32,7 @@ export default function RootLayout({
       <body className={`${myFont.className}`} suppressHydrationWarning={true}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -24,7 +24,7 @@
 
 .primary_button_link {
   background-color: var(--theme-primary-bg);
-  border: none;
+  border: 2px solid var(--theme-primary-bg);
 }
 
 .primary_button_link:hover {
