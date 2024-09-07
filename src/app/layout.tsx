@@ -24,8 +24,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${myFont.className}`}>
+    <html lang="en" data-theme="dark">
+      <body className={`${myFont.className}`} suppressHydrationWarning={true}>
         {children}
       </body>
     </html>

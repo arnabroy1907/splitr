@@ -1,0 +1,12 @@
+.splitr_logo_container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.splitr_logo_container span {
+    font-size: 1.125rem;
+    font-weight: 900;
+    color: var(--theme-fg);
+}

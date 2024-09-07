@@ -1,12 +1,12 @@
-import styles from "./page.module.css";
+import { Navbar } from "@splitr/components/Navbar/Navbar";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
+    <>
+      <Navbar />
+      <main>
         <h1>Splitr App</h1>
-        <h2>WIP</h2>
       </main>
-    </div>
+    </>
   );
 }

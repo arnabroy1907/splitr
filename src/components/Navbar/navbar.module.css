@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    padding: 0 3rem;
+    border-bottom: solid 1px #2d2d2d;
+    background-color: var(--theme-bg);
+}
+
+.navbar_buttons_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar_sign_in_link {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--theme-primary-bg);
+    transition: 0.2s;
+}
+
+.navbar_sign_in_link:hover {
+    color: var(--theme-primary-bg2);
+}

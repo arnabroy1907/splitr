@@ -1,10 +1,27 @@
+
+html {
+  --theme-fg: #1a1a1a;
+  --theme-bg: #ffffff;
+  --theme-primary-bg: #00d1b2;
+  --theme-primary-bg2: #0dbaa0;
+  --theme-outline-grey1: #696969;
+}
+
+html[data-theme="dark"] {
+  --theme-bg: #1a1a1a;
+  --theme-fg: #ffffff;
+}
+
 html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  background-color: var(--theme-bg);
+  color: var(--theme-fg);
 }
 
 body {
+  font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
