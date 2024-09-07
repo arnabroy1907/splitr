@@ -11,7 +11,7 @@ export const SplitrLogo = () => {
         height="24"
         viewBox="0 0 24 24"
         fill="none"
-        stroke="#00d1b2"
+        stroke="var(--theme-primary-bg)"
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"

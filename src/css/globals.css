@@ -1,6 +1,8 @@
 html {
   --theme-fg: #1a1a1a;
+  --theme-fg2: #303030;
   --theme-bg: #ffffff;
+  --theme-bg2: #efefef;
   --theme-bg-fade: #ffffff80;
   --theme-primary-bg: #00d1b2;
   --theme-primary-bg2: #0dbaa0;
@@ -8,7 +10,9 @@ html {
 
 html[data-theme="dark"] {
   --theme-fg: #ffffff;
+  --theme-fg2: #b3b3b3;
   --theme-bg: #1a1a1a;
+  --theme-bg2: #212121;
   --theme-bg-fade: #1a1a1a80;
 }
 

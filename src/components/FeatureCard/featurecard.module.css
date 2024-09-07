@@ -1,0 +1,16 @@
+.feature_card {
+  width: 18rem;
+  height: 13.5rem;
+  background-color: var(--theme-bg);
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  margin: 1rem 0;
+}
+
+.description {
+  color: var(--theme-fg2);
+}

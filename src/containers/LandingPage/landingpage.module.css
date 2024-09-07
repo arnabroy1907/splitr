@@ -1,0 +1,38 @@
+.features_section {
+  background-color: var(--theme-bg2);
+  padding: 8rem 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.features_header {
+  text-align: center;
+  max-width: 28rem;
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: 900;
+}
+
+.description {
+  color: var(--theme-fg2);
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.features_items_wrapper {
+  margin-top: 3rem;
+  gap: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap;
+}
+
+@media only screen and (max-width: 768px) {
+  .features_section {
+    padding: 5rem 1.5rem;
+  }
+}

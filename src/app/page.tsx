@@ -1,10 +1,5 @@
-import { HeroSection } from "@splitr/components/HeroSection/HeroSection";
+import { LandingPage } from "@splitr/containers/LandingPage/LandingPage";
 
-// Landing page with hero section
 export default function Home() {
-  return (
-    <main>
-      <HeroSection />
-    </main>
-  );
+  return <LandingPage />;
 }
