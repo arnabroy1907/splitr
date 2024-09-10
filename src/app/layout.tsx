@@ -14,11 +14,19 @@ export const metadata: Metadata = {
   title: "Splitr",
   description: "Splitr app for expense management - Play Project - WIP",
   icons: {
-    icon: "/favicon.ico",
-    apple: "/favicon.ico",
+    icon: `${process.env.NEXT_PUBLIC_APP_URL}/favicon.ico`,
+    apple: `${process.env.NEXT_PUBLIC_APP_URL}/favicon.ico`,
   },
   authors: {
     name: "Arnab Roy",
+  },
+  openGraph: {
+    title: "Splitr",
+    description: "Splitr app for expense management - Play Project - WIP",
+    url: process.env.NEXT_PUBLIC_APP_URL ?? "",
+    images: `${process.env.NEXT_PUBLIC_APP_URL}/favicon.ico`,
+    siteName: "Splitr",
+    type: "website",
   },
 };
 
