@@ -14,8 +14,8 @@ export const metadata: Metadata = {
   title: "Splitr",
   description: "Splitr app for expense management - Play Project - WIP",
   icons: {
-    icon: `${process.env.NEXT_PUBLIC_APP_URL}/favicon.ico`,
-    apple: `${process.env.NEXT_PUBLIC_APP_URL}/favicon.ico`,
+    icon: "/favicon.ico",
+    apple: "/favicon.ico",
   },
   authors: {
     name: "Arnab Roy",
