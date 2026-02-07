@@ -1,6 +1,6 @@
 import { MouseEventHandler } from "react";
 
 export type ButtonProps = {
-    onClick?: MouseEventHandler<HTMLButtonElement>;
-    type?: HTMLButtonElement['type']
-}
+  onClick?: MouseEventHandler<HTMLButtonElement>;
+  type?: HTMLButtonElement["type"];
+};

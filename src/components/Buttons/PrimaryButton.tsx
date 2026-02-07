@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import React, { PropsWithChildren } from "react";
 import styles from "./buttons.module.css";

@@ -21,7 +21,10 @@ export const Footer = () => {
       </div>
       <div className={styles.copyright}>
         <p className={styles.creator}>
-          <Link href={process.env.LINKED_IN_URL ?? ""} target="_blank">
+          <Link
+            href={process.env.NEXT_PUBLIC_LINKED_IN_URL ?? ""}
+            target="_blank"
+          >
             <LinkedInIcon />
           </Link>
           <span>Arnab Roy</span>
